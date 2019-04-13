@@ -21,7 +21,7 @@ int main()
 		int Rand = (rand() % 3) + 1;
 		int Num;
 	//	cin >> Num;
-	if(!(cin >> Num))//I copied this from elsewhere. It means that if cin does not read
+	if(!(cin >> Num))//If cin does not read
 	{                               //the expected type, it will cause an error
 		std::cout << "Please enter numbers only: ";
 		std::cin.clear(); //resets the error flag
